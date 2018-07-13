@@ -1,0 +1,11 @@
+<div style="text-align:center">
+<h1>Farms List</h1>
+</div>
+<div>
+  <ul>
+    <li (click)='displayDetailFarm(farm)' *ngFor="let farm of farms">
+       <a [routerLink]="['detail/', farm._id]"> {{farm.Farm}}</a></li>
+    <!-- <li><a routerLink="detail/1">{{farm.Farm}}</a></li> -->
+</ul>
+</div>
+

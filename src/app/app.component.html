@@ -1,0 +1,36 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+    <h1>
+        Welcome to {{ title }}!
+      </h1></div>
+    <div><a routerLink=''>Home</a></div>
+    <div><a routerLink='farms'>Farms Eager implementation</a></div>
+     <div><a routerLink='lazyfarms'>Farms Lazy implementation</a></div>
+
+<!-- <a routerLink="/farms">Farms</a>
+<a routerLink="/detail">Farms Detail</a> -->
+
+<router-outlet></router-outlet>
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-xs-10">
+         
+            <hr>
+    
+            without exact:true it will be added to all routes as they all start with / 
+            <a [routerLink]="['']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+         
+             <a [routerLink]="['']">Home</a> |
+            <a [routerLink]="['aboutus']">About Us</a> |
+            <a [routerLink]="['params', 'route', id.value]">Param</a> | 
+        
+            <!-- <a [routerLink]="['guards']">Guards</a> -->
+            <hr>
+            <!-- <app-farms></app-farms> -->
+        <!-- </div>
+    </div> 
+</div> -->
+
+
+
+

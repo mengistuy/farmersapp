@@ -1,0 +1,10 @@
+<div style="text-align:center">
+    <h1> Here is lazy implementation list of farms List</h1>
+    </div>
+    <div>
+      <ul>
+        <li (click)='displayDetailFarm(farm)' *ngFor="let farm of farms">
+           <a [routerLink]="['detail/', farm._id]"> {{farm.Farm}}</a></li>
+        <!-- <li><a routerLink="detail/1">{{farm.Farm}}</a></li> -->
+    </ul>
+    </div>
